@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 7;
+    padding: 2;
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size:3in;
+    color: rgb(79, 71, 71);
+}
+
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    display: grid;
+    justify-content:space-around;
+    align-items:flex-start;
+    color: rgb(79, 71, 71);
+    font-size: 1rem;
+    background-color: rgb(248, 229, 229);
+}
+
+table{
+    border-collapse:separate;
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0 12px 21px rgb(136, 129, 121);
+
+
+}
+
+a{
+    font-size: 2in;
+}
+ td{
+    padding: 1rem 2rem;
+ }
+
+ tr:nth-child(even){
+    background-color:rgb(240, 220, 193);
+ }

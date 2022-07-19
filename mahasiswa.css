@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 7;
+    padding: 2;
+}
+h1{
+    font-size: 0.6in;
+}
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    display: grid;
+    justify-content:space-around;
+    align-items: baseline;
+    color: rgb(79, 71, 71);
+    font-size: 1rem;
+    background-color: rgb(248, 229, 229);
+}
+
+table{
+    border-collapse: collapse;
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0 5px 7px rgb(136, 129, 121);
+
+
+}
+thead{
+    background-color: rgb(238, 233, 226);
+}
+
+ th{
+     padding: 1rem 2rem;
+     text-transform: uppercase;
+     letter-spacing: 0.1rem;
+     font-size: 1rem;
+     font-weight: 900;
+ }
+
+ td{
+    padding: 1rem 2rem;
+ }
+
+ tr:nth-child(even){
+    background-color:rgb(240, 220, 193);
+ }
